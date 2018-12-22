@@ -1,7 +1,7 @@
 # portfolio_site_krosswired
 Udacity FEND project 1
 
-# Rubric
+#Rubric
 
 rubric is in the notes.txt file
 
@@ -9,7 +9,7 @@ rubric is in the notes.txt file
 
 created from scratch with html and css
 
-# Contributing
+#Contributing
 
 Student Matt Kross @ Krosswired Development
 
