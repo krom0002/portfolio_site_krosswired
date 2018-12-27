@@ -1,0 +1,28 @@
+/* main border */
+
+body {
+    position: absolute;
+    width: 354px;
+    height: 2303px;
+    left: 10px;
+    top: 9px;
+
+    background: #FFFFFF;
+    border: 3px solid #429FE4;
+    box-sizing: border-box;
+    border-radius: 51px;
+}
+
+/* logo_main */
+.logo_main {
+    position: absolute;
+    width: 228px;
+    height: 169px;
+    left: 75px;
+    top: 48px;
+
+    background: url(logo_main.jpg);
+    border: 3px solid #429FE4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 37px;
+}
