@@ -30,7 +30,6 @@ body {
 }
 
 /*__________________________*/
-
 /*Font Elements*/
 h1 {
 	
@@ -67,7 +66,7 @@ p {
 
 	border-top: 2px solid #429fe4;
 	border-radius: 10px;
-    font-family: 'EB Garamond', serif;
+    	font-family: 'EB Garamond', serif;
 	font-size: 18px;
 	letter-spacing: 3px;
 	line-height: 200%;	  
@@ -77,7 +76,7 @@ p {
 
 	border-top: 2px solid white;
 	border-radius: 10px;
-    font-family: 'EB Garamond', serif;
+    	font-family: 'EB Garamond', serif;
 	font-size: 18px;
 	letter-spacing: 3px;
 	line-height: 100%;
@@ -91,7 +90,6 @@ p {
 }
 
 /*__________________________*/
-
 /*images and logos*/	
 img {
 
@@ -119,11 +117,10 @@ img {
 	border: 2px solid #429fe4;
 	border-radius: 10px;
 	width: 100%;
-    height: auto;
+    	height: auto;
 }
 
 /*__________________________*/
-
 /*.lock_box {	
 	
 	overflow: hidden;
@@ -218,8 +215,6 @@ img {
 }
 
 /*__________________________*/
-
-
 /* Stand Alone Image container*/
 .main_article_image_container {
 
@@ -244,7 +239,6 @@ img {
 
 
 /*__________________________*/
-
 /* Group 2 Main Formating */
 .project_box_main{
 
@@ -314,62 +308,62 @@ img {
 /* Break Point for larger Layout */
 @media only screen and (min-width: 750px) {
 
-	.head_box {
+.head_box {
 
-		align-items: center;
-		display: flex;	
-		flex-direction: row;		
-		justify-content: space-around;		
-	}
+	align-items: center;
+	display: flex;	
+	flex-direction: row;		
+	justify-content: space-around;		
+}
 
-	.nav_list {
+.nav_list {
 
-		align-items: center;		
-		display: flex;	
-		flex-direction: row;		
-		justify-content: space-around;
-		list-style: none;  	
-	}
+	align-items: center;		
+	display: flex;	
+	flex-direction: row;		
+	justify-content: space-around;
+	list-style: none;  	
+}
 
-	.nav_item {
+.nav_item {
 
-		margin: 15px;
-		padding: 10px;
-	}	
+	margin: 15px;
+	padding: 10px;
+}	
 
-	.project_box_main{
+.project_box_main{
 
-		display: flex;	
-		flex-direction: row;		
-		justify-content: space-around;		
-	}
-	
-	.project_card {
+	display: flex;	
+	flex-direction: row;		
+	justify-content: space-around;		
+}
+
+.project_card {
+
+	align-items: stretch;
+	/*border: #429fe4;
+	border-radius: 20px;*/
+	margin: 15px;
+	padding: 5px;				
+}
+
+.logo_box {
+
+	margin: 15px;
+	padding: 5px;
+}
+
+.footer_box {
+
+	/*background: purple; background color for testing*/
+	margin: auto;
+	padding: 10px;
+	width: 60%;	
+}	
+
+/*.big_space_box {
+
+	padding-bottom: 250%;
+}*/
 		
-		align-items: stretch;
-		/*border: #429fe4;
-		border-radius: 20px;*/
-		margin: 15px;
-		padding: 5px;				
-	}
-
-	.logo_box {
-
-		margin: 15px;
-		padding: 5px;
-	}
-
-	.footer_box {
-		
-		/*background: purple; background color for testing*/
-		margin: auto;
-		padding: 10px;
-		width: 60%;	
-	}	
-
-	/*.big_space_box {
-
-		padding-bottom: 250%;
-	}*/
-		
-}	/* end of media Query */
+/* end of media Query */
